@@ -1,0 +1,8 @@
+Key things that made it work:
+
+- JSX: 'react' in tsconfig
+- adding react as peer dep in package.json
+- "files" property in package.json
+- externals: "react": "react" in webpack config
+- library: name: 'ui_lib', type: 'umd' in webpack config
+- import React from 'react' in index.ts file as well as Button.tsx
